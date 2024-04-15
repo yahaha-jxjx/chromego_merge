@@ -329,7 +329,7 @@ response = requests.get(rules_url)
 if response.status_code == 200:
     rules_content = response.text
     # 假设您已经有了一个名为merged_proxies_new.yaml的文件，并且想要将下载的规则添加到这个文件中
-    with open('merged_proxies_new.yaml', 'a') as file:
+    with open('./sub/merged_proxies_new.yaml', 'a') as file:
         file.write('\n\n# Clash 订阅规则开始\n')
         file.write(rules_content)
         file.write('\n# Clash 订阅规则结束\n')
