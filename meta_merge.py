@@ -317,3 +317,21 @@ with open("./sub/merged_proxies_new.yaml", "w", encoding="utf-8") as file:
     yaml.dump(config_data, file, sort_keys=False, allow_unicode=True)
 
 print("聚合完成")
+
+
+import requests
+
+# 订阅规则的URL
+rules_url = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR.ini"
+
+# 下载规则文件
+response = requests.get(rules_url)
+if response.status_code == 200:
+    rules_content = response.text
+    # 假设您已经有了一个名为merged_proxies_new.yaml的文件，并且想要将下载的规则添加到这个文件中
+    with open('merged_proxies_new.yaml', 'a') as file:
+        file.write('\n\n# Clash 订阅规则开始\n')
+        file.write(rules_content)
+        file.write('\n# Clash 订阅规则结束\n')
+else:
+    print("下载规则文件失败，状态码：", response.status_code)
