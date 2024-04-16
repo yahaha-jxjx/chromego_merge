@@ -708,7 +708,7 @@
     {
       "tag": "🇺🇸 United States_vless_1",
       "type": "vless",
-      "server": "yh3.dtku41.xyz",
+      "server": "yh6.dtku41.xyz",
       "server_port": 443,
       "uuid": "ebfdccb6-7416-4b6e-860d-98587344d500",
       "packet_encoding": "xudp",
