@@ -97,9 +97,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇸 United States_tuic_0",
-        "🇺🇸 United States_hy_1",
-        "🇺🇸 United States_tuic_4",
         "🇺🇸 United States_vless_5",
         "🇺🇸 United States_hy2_7",
         "🇺🇸 United States_vless_8",
@@ -112,7 +109,7 @@
         "🇺🇸 United States_hysteria2_2",
         "🇺🇸 United States_hysteria2_3",
         "🇺🇸 United States_vless_1",
-        "🇳🇱 The Netherlands_vless_2",
+        "None_vless_2",
         "🇺🇸 United States_vless_3"
       ]
     },
@@ -354,9 +351,6 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 United States_tuic_0",
-        "🇺🇸 United States_hy_1",
-        "🇺🇸 United States_tuic_4",
         "🇺🇸 United States_vless_5",
         "🇺🇸 United States_hy2_7",
         "🇺🇸 United States_vless_8",
@@ -376,16 +370,13 @@
       "outbounds": [
         "🇫🇷 France_hysteria_1",
         "🇫🇷 France_hysteria_2",
-        "🇳🇱 The Netherlands_vless_2"
+        "None_vless_2"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 United States_tuic_0",
-        "🇺🇸 United States_hy_1",
-        "🇺🇸 United States_tuic_4",
         "🇺🇸 United States_vless_5",
         "🇺🇸 United States_hy2_7",
         "🇺🇸 United States_vless_8",
@@ -398,7 +389,7 @@
         "🇺🇸 United States_hysteria2_2",
         "🇺🇸 United States_hysteria2_3",
         "🇺🇸 United States_vless_1",
-        "🇳🇱 The Netherlands_vless_2",
+        "None_vless_2",
         "🇺🇸 United States_vless_3"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -416,61 +407,6 @@
     {
       "type": "block",
       "tag": "block"
-    },
-    {
-      "tag": "🇺🇸 United States_tuic_0",
-      "type": "tuic",
-      "server": "74.63.233.74",
-      "server_port": 33441,
-      "uuid": "a258065f-9502-4fe6-b3ed-cf7440e25150",
-      "password": "dongtaiwang.com",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "zero_rtt_handshake": false,
-      "heartbeat": "10s",
-      "tls": {
-        "enabled": true,
-        "alpn": [
-          "h3"
-        ],
-        "insecure": false
-      }
-    },
-    {
-      "tag": "🇺🇸 United States_hy_1",
-      "type": "hysteria",
-      "server": "108.181.5.22",
-      "server_port": 44557,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "tag": "🇺🇸 United States_tuic_4",
-      "type": "tuic",
-      "server": "108.181.5.132",
-      "server_port": 9727,
-      "uuid": "02b0c83f-5fa4-4f08-8a9f-d9cae4a7a419",
-      "password": "02b0c83f-5fa4-4f08-8a9f-d9cae4a7a419",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "zero_rtt_handshake": false,
-      "heartbeat": "10s",
-      "tls": {
-        "enabled": true,
-        "alpn": [
-          "h3"
-        ],
-        "insecure": false
-      }
     },
     {
       "tag": "🇺🇸 United States_vless_5",
@@ -538,8 +474,8 @@
     {
       "tag": "🇺🇸 United States_hysteria_0",
       "type": "hysteria",
-      "server": "108.181.5.133",
-      "server_port": 26022,
+      "server": "109.104.152.194",
+      "server_port": 58510,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -696,7 +632,7 @@
       }
     },
     {
-      "tag": "🇳🇱 The Netherlands_vless_2",
+      "tag": "None_vless_2",
       "type": "vless",
       "server": "yh9.dtku41.xyz",
       "server_port": 443,
