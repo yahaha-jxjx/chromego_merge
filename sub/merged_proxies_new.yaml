@@ -277,7 +277,7 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - cipher: aes-128-gcm
-  name: Japan_Kamakura_ss_1013
+  name: Japan_Hokuto_ss_1013
   password: 940031a6-fd32-4d6b-901d-77b7f943698e
   port: 50414
   server: bl.sytes.net
@@ -617,7 +617,7 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - cipher: aes-128-gcm
-  name: Japan_Kamakura_ss_1123
+  name: Japan_Hokuto_ss_1123
   password: 940031a6-fd32-4d6b-901d-77b7f943698e
   port: 50414
   server: bl.sytes.net
@@ -891,7 +891,7 @@ proxy-groups:
   - Japan_Tokyo_ss_1010
   - China_None_trojan_1011
   - China_None_trojan_1012
-  - Japan_Kamakura_ss_1013
+  - Japan_Hokuto_ss_1013
   - China_None_trojan_1014
   - China_None_trojan_1015
   - China_None_vmess_1016
@@ -927,7 +927,7 @@ proxy-groups:
   - Japan_Tokyo_ss_1120
   - China_None_trojan_1121
   - China_None_trojan_1122
-  - Japan_Kamakura_ss_1123
+  - Japan_Hokuto_ss_1123
   - China_None_trojan_1124
   - China_None_trojan_1125
   - China_None_vmess_1126
@@ -980,7 +980,7 @@ proxy-groups:
   - Japan_Tokyo_ss_1010
   - China_None_trojan_1011
   - China_None_trojan_1012
-  - Japan_Kamakura_ss_1013
+  - Japan_Hokuto_ss_1013
   - China_None_trojan_1014
   - China_None_trojan_1015
   - China_None_vmess_1016
@@ -1016,7 +1016,7 @@ proxy-groups:
   - Japan_Tokyo_ss_1120
   - China_None_trojan_1121
   - China_None_trojan_1122
-  - Japan_Kamakura_ss_1123
+  - Japan_Hokuto_ss_1123
   - China_None_trojan_1124
   - China_None_trojan_1125
   - China_None_vmess_1126
