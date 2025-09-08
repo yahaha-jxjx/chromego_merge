@@ -187,7 +187,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Aberdeen_vmess_104
+  name: Hong Kong_Sha Tin Wai_vmess_104
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
@@ -930,7 +930,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Aberdeen_vmess_1114
+  name: Hong Kong_Sha Tin Wai_vmess_1114
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
@@ -1678,7 +1678,7 @@ proxy-groups:
   - Germany_Frankfurt am Main_ss_101
   - China_None_vmess_102
   - China_None_ss_103
-  - Hong Kong_Aberdeen_vmess_104
+  - Hong Kong_Sha Tin Wai_vmess_104
   - Hong Kong_Central_trojan_105
   - Hong Kong_None_vmess_106
   - Taiwan_Taichung_ss_107
@@ -1743,7 +1743,7 @@ proxy-groups:
   - Germany_Frankfurt am Main_ss_1111
   - China_None_vmess_1112
   - China_None_ss_1113
-  - Hong Kong_Aberdeen_vmess_1114
+  - Hong Kong_Sha Tin Wai_vmess_1114
   - Hong Kong_Central_trojan_1115
   - Hong Kong_None_vmess_1116
   - Taiwan_Taichung_ss_1117
@@ -1824,7 +1824,7 @@ proxy-groups:
   - Germany_Frankfurt am Main_ss_101
   - China_None_vmess_102
   - China_None_ss_103
-  - Hong Kong_Aberdeen_vmess_104
+  - Hong Kong_Sha Tin Wai_vmess_104
   - Hong Kong_Central_trojan_105
   - Hong Kong_None_vmess_106
   - Taiwan_Taichung_ss_107
@@ -1889,7 +1889,7 @@ proxy-groups:
   - Germany_Frankfurt am Main_ss_1111
   - China_None_vmess_1112
   - China_None_ss_1113
-  - Hong Kong_Aberdeen_vmess_1114
+  - Hong Kong_Sha Tin Wai_vmess_1114
   - Hong Kong_Central_trojan_1115
   - Hong Kong_None_vmess_1116
   - Taiwan_Taichung_ss_1117
