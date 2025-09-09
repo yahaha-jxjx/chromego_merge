@@ -184,7 +184,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Sha Tin Wai_vmess_104
+  name: Hong Kong_Central_vmess_104
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
@@ -209,7 +209,7 @@ proxies:
   name: Hong Kong_None_ss_106
   password: amazongreatvpn
   port: 16888
-  server: 18.162.224.234
+  server: 18.163.165.61
   type: ss
 - name: Hong Kong_None_trojan_107
   network: tcp
@@ -281,7 +281,7 @@ proxies:
   name: Japan_Tokyo_ss_1015
   password: amazongreatvpn
   port: 16888
-  server: 57.183.2.72
+  server: 3.115.20.29
   type: ss
 - name: Japan_Tokyo_trojan_1016
   network: tcp
@@ -1293,7 +1293,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Sha Tin Wai_vmess_1114
+  name: Hong Kong_Central_vmess_1114
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
@@ -1318,7 +1318,7 @@ proxies:
   name: Hong Kong_None_ss_1116
   password: amazongreatvpn
   port: 16888
-  server: 18.162.224.234
+  server: 18.163.165.61
   type: ss
 - name: Hong Kong_None_trojan_1117
   network: tcp
@@ -1390,7 +1390,7 @@ proxies:
   name: Japan_Tokyo_ss_1125
   password: amazongreatvpn
   port: 16888
-  server: 57.183.2.72
+  server: 3.115.20.29
   type: ss
 - name: Japan_Tokyo_trojan_1126
   network: tcp
@@ -2410,7 +2410,7 @@ proxy-groups:
   - Germany_Frankfurt am Main_ss_101
   - China_None_vmess_102
   - China_None_ss_103
-  - Hong Kong_Sha Tin Wai_vmess_104
+  - Hong Kong_Central_vmess_104
   - Hong Kong_Sha Tin Wai_trojan_105
   - Hong Kong_None_ss_106
   - Hong Kong_None_trojan_107
@@ -2505,7 +2505,7 @@ proxy-groups:
   - Germany_Frankfurt am Main_ss_1111
   - China_None_vmess_1112
   - China_None_ss_1113
-  - Hong Kong_Sha Tin Wai_vmess_1114
+  - Hong Kong_Central_vmess_1114
   - Hong Kong_Sha Tin Wai_trojan_1115
   - Hong Kong_None_ss_1116
   - Hong Kong_None_trojan_1117
@@ -2616,7 +2616,7 @@ proxy-groups:
   - Germany_Frankfurt am Main_ss_101
   - China_None_vmess_102
   - China_None_ss_103
-  - Hong Kong_Sha Tin Wai_vmess_104
+  - Hong Kong_Central_vmess_104
   - Hong Kong_Sha Tin Wai_trojan_105
   - Hong Kong_None_ss_106
   - Hong Kong_None_trojan_107
@@ -2711,7 +2711,7 @@ proxy-groups:
   - Germany_Frankfurt am Main_ss_1111
   - China_None_vmess_1112
   - China_None_ss_1113
-  - Hong Kong_Sha Tin Wai_vmess_1114
+  - Hong Kong_Central_vmess_1114
   - Hong Kong_Sha Tin Wai_trojan_1115
   - Hong Kong_None_ss_1116
   - Hong Kong_None_trojan_1117
