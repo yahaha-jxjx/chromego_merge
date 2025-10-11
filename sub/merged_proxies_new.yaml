@@ -599,31 +599,7 @@ proxies:
   server: 103.186.154.217
   tfo: false
   type: ss
-- name: China_None_trojan_1128
-  password: 253bc477d4e43c209f2d427272968280
-  port: 6752
-  server: 36.156.102.84
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- name: Japan_Tokyo_trojan_1129
-  password: 253bc477d4e43c209f2d427272968280
-  port: 5328
-  server: 160.16.117.182
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- name: Japan_Tokyo_trojan_1130
-  password: 253bc477d4e43c209f2d427272968280
-  port: 5041
-  server: 153.121.51.29
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- name: Singapore_None_trojan_1131
+- name: Singapore_None_trojan_1128
   network: ws
   password: wb6368
   port: 2087
@@ -636,12 +612,11 @@ proxies:
     headers:
       Host: hsdgbuys.pages.dev
     path: /
-- name: United States_Chicago_trojan_1132
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 23.227.194.19
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+- name: Singapore_Singapore_trojan_1129
+  password: installshield
+  port: 8443
+  server: 38.180.106.124
+  skip-cert-verify: true
   type: trojan
   udp: true
 - name: The Netherlands_Amsterdam_hy_0
@@ -790,11 +765,8 @@ proxy-groups:
   - Japan_Tokyo_trojan_1125
   - Japan_Tokyo_trojan_1126
   - Vietnam_None_ss_1127
-  - China_None_trojan_1128
-  - Japan_Tokyo_trojan_1129
-  - Japan_Tokyo_trojan_1130
-  - Singapore_None_trojan_1131
-  - United States_Chicago_trojan_1132
+  - Singapore_None_trojan_1128
+  - Singapore_Singapore_trojan_1129
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
@@ -863,11 +835,8 @@ proxy-groups:
   - Japan_Tokyo_trojan_1125
   - Japan_Tokyo_trojan_1126
   - Vietnam_None_ss_1127
-  - China_None_trojan_1128
-  - Japan_Tokyo_trojan_1129
-  - Japan_Tokyo_trojan_1130
-  - Singapore_None_trojan_1131
-  - United States_Chicago_trojan_1132
+  - Singapore_None_trojan_1128
+  - Singapore_Singapore_trojan_1129
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
