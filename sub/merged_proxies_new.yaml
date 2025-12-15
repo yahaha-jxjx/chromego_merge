@@ -747,6 +747,32 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: United States_None_trojan_1142
+  network: ws
+  password: b1fec179-3d5a-4ec5-bf3c-e10668543b4b
+  port: 8443
+  server: 69.84.182.108
+  skip-cert-verify: false
+  sni: cdn-node-oss-61.anycdn.de
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cdn-node-oss-61.anycdn.de
+    path: /profile/us1
+- name: United States_None_trojan_1143
+  network: ws
+  password: b1fec179-3d5a-4ec5-bf3c-e10668543b4b
+  port: 8443
+  server: 69.84.182.18
+  skip-cert-verify: false
+  sni: cdn-node-oss-62.anycdn.de
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cdn-node-oss-62.anycdn.de
+    path: /profile/us2
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -865,6 +891,8 @@ proxy-groups:
   - Japan_Tokyo_trojan_1139
   - Japan_Tokyo_trojan_1140
   - Hong Kong_None_trojan_1141
+  - United States_None_trojan_1142
+  - United States_None_trojan_1143
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -957,6 +985,8 @@ proxy-groups:
   - Japan_Tokyo_trojan_1139
   - Japan_Tokyo_trojan_1140
   - Hong Kong_None_trojan_1141
+  - United States_None_trojan_1142
+  - United States_None_trojan_1143
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
