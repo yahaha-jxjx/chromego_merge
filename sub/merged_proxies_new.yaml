@@ -42,7 +42,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_103
+  name: Hong Kong_Kowloon_vmess_103
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
@@ -1159,7 +1159,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_11122
+  name: Hong Kong_Kowloon_vmess_11122
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
@@ -1282,7 +1282,7 @@ proxy-groups:
   - DIRECT
   - United States_None_ss_101
   - Hong Kong_Central_vmess_102
-  - Hong Kong_Central_vmess_103
+  - Hong Kong_Kowloon_vmess_103
   - Hong Kong_Kowloon_trojan_104
   - Hong Kong_Sai Wan_trojan_105
   - Japan_Tokyo_trojan_106
@@ -1418,7 +1418,7 @@ proxy-groups:
   - None_None_trojan_11119
   - United States_None_ss_11120
   - Hong Kong_Central_vmess_11121
-  - Hong Kong_Central_vmess_11122
+  - Hong Kong_Kowloon_vmess_11122
   - Hong Kong_Sai Wan_trojan_11123
   - Japan_Tokyo_trojan_11124
   - Japan_Tokyo_trojan_11125
@@ -1440,7 +1440,7 @@ proxy-groups:
   proxies:
   - United States_None_ss_101
   - Hong Kong_Central_vmess_102
-  - Hong Kong_Central_vmess_103
+  - Hong Kong_Kowloon_vmess_103
   - Hong Kong_Kowloon_trojan_104
   - Hong Kong_Sai Wan_trojan_105
   - Japan_Tokyo_trojan_106
@@ -1576,7 +1576,7 @@ proxy-groups:
   - None_None_trojan_11119
   - United States_None_ss_11120
   - Hong Kong_Central_vmess_11121
-  - Hong Kong_Central_vmess_11122
+  - Hong Kong_Kowloon_vmess_11122
   - Hong Kong_Sai Wan_trojan_11123
   - Japan_Tokyo_trojan_11124
   - Japan_Tokyo_trojan_11125
