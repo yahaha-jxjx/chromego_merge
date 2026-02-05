@@ -122,7 +122,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1013
+  name: Hong Kong_Jordan_vmess_1013
   network: ws
   port: '80'
   server: 609a8c34-t9w4g0-thiwul-1gcq2.hkt.gotochinatown.net
@@ -322,7 +322,7 @@ proxies:
     headers:
       Host: 17698512164336.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: None_None_trojan_1121
+- name: United States_None_trojan_1121
   network: ws
   password: 056b39f5-ffb3-4145-8f75-2ffdeb53cb48
   port: 2083
@@ -348,28 +348,28 @@ proxies:
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: United States_None_trojan_1124
+- name: None_None_trojan_1124
   password: 4a14fe06-1b03-4d93-a360-1e33ae972896
   port: 31102
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: None_None_trojan_1125
+- name: United States_None_trojan_1125
   password: 80429ec5-265a-4a99-b0bb-ddc9e75411c0
   port: 31102
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: None_None_trojan_1126
+- name: United States_None_trojan_1126
   password: 21f085a7-ace6-495e-b550-281c8bfde899
   port: 31102
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: None_None_trojan_1127
+- name: United States_None_trojan_1127
   password: 19fcde52-c498-4863-8fb1-5923c75dec39
   port: 31102
   server: green2.cdntencentmusic.com
@@ -518,7 +518,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1145
+  name: Hong Kong_Jordan_vmess_1145
   network: ws
   port: '80'
   server: 3f637c17-t94cg0-tcuz7t-1ta58.hkt.gotochinatown.net
@@ -644,7 +644,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1160
+  name: Hong Kong_Jordan_vmess_1160
   network: ws
   port: '80'
   server: 609a8c34-t9w4g0-thiwul-1gcq2.hkt.gotochinatown.net
@@ -693,7 +693,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1010
   - The Netherlands_Meppel_trojan_1011
   - Japan_Tokyo_trojan_1012
-  - Hong Kong_Central_vmess_1013
+  - Hong Kong_Jordan_vmess_1013
   - Hong Kong_Central_vmess_1014
   - India_Mumbai_trojan_1015
   - Unknown_vmess_111
@@ -716,13 +716,13 @@ proxy-groups:
   - Hong Kong_Tsim Sha Tsui_trojan_1118
   - Hong Kong_Tsim Sha Tsui_trojan_1119
   - None_None_trojan_1120
-  - None_None_trojan_1121
+  - United States_None_trojan_1121
   - United States_None_trojan_1122
   - None_None_trojan_1123
-  - United States_None_trojan_1124
-  - None_None_trojan_1125
-  - None_None_trojan_1126
-  - None_None_trojan_1127
+  - None_None_trojan_1124
+  - United States_None_trojan_1125
+  - United States_None_trojan_1126
+  - United States_None_trojan_1127
   - None_None_trojan_1128
   - United Kingdom_None_trojan_1129
   - United Kingdom_None_trojan_1130
@@ -740,7 +740,7 @@ proxy-groups:
   - None_None_trojan_1142
   - China_None_vmess_1143
   - China_None_vmess_1144
-  - Hong Kong_Central_vmess_1145
+  - Hong Kong_Jordan_vmess_1145
   - China_None_vmess_1146
   - China_None_vmess_1147
   - United States_None_ss_1148
@@ -755,7 +755,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1157
   - The Netherlands_Meppel_trojan_1158
   - Japan_Tokyo_trojan_1159
-  - Hong Kong_Central_vmess_1160
+  - Hong Kong_Jordan_vmess_1160
   - Hong Kong_Central_vmess_1161
   - India_Mumbai_trojan_1162
 - name: 自动选择
@@ -776,7 +776,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1010
   - The Netherlands_Meppel_trojan_1011
   - Japan_Tokyo_trojan_1012
-  - Hong Kong_Central_vmess_1013
+  - Hong Kong_Jordan_vmess_1013
   - Hong Kong_Central_vmess_1014
   - India_Mumbai_trojan_1015
   - Unknown_vmess_111
@@ -799,13 +799,13 @@ proxy-groups:
   - Hong Kong_Tsim Sha Tsui_trojan_1118
   - Hong Kong_Tsim Sha Tsui_trojan_1119
   - None_None_trojan_1120
-  - None_None_trojan_1121
+  - United States_None_trojan_1121
   - United States_None_trojan_1122
   - None_None_trojan_1123
-  - United States_None_trojan_1124
-  - None_None_trojan_1125
-  - None_None_trojan_1126
-  - None_None_trojan_1127
+  - None_None_trojan_1124
+  - United States_None_trojan_1125
+  - United States_None_trojan_1126
+  - United States_None_trojan_1127
   - None_None_trojan_1128
   - United Kingdom_None_trojan_1129
   - United Kingdom_None_trojan_1130
@@ -823,7 +823,7 @@ proxy-groups:
   - None_None_trojan_1142
   - China_None_vmess_1143
   - China_None_vmess_1144
-  - Hong Kong_Central_vmess_1145
+  - Hong Kong_Jordan_vmess_1145
   - China_None_vmess_1146
   - China_None_vmess_1147
   - United States_None_ss_1148
@@ -838,7 +838,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1157
   - The Netherlands_Meppel_trojan_1158
   - Japan_Tokyo_trojan_1159
-  - Hong Kong_Central_vmess_1160
+  - Hong Kong_Jordan_vmess_1160
   - Hong Kong_Central_vmess_1161
   - India_Mumbai_trojan_1162
 rules:
