@@ -287,7 +287,7 @@ proxies:
     path: /
 - alpn:
   - http/1.1
-  name: None_None_trojan_1113
+  name: United States_None_trojan_1113
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -301,7 +301,7 @@ proxies:
     path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
 - alpn:
   - http/1.1
-  name: None_None_trojan_1114
+  name: United States_None_trojan_1114
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -315,7 +315,7 @@ proxies:
     path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
 - alpn:
   - http/1.1
-  name: None_None_trojan_1115
+  name: United States_None_trojan_1115
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -342,7 +342,7 @@ proxies:
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alpn:
   - http/1.1
-  name: None_None_trojan_1117
+  name: United States_None_trojan_1117
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -369,7 +369,7 @@ proxies:
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alterId: 0
   cipher: auto
-  name: None_None_vmess_1119
+  name: United States_None_vmess_1119
   network: ws
   port: '443'
   server: nmjk.1hh.ccwu.cc
@@ -396,7 +396,7 @@ proxies:
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alpn:
   - http/1.1
-  name: None_None_trojan_1121
+  name: United States_None_trojan_1121
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -437,7 +437,7 @@ proxies:
     path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
 - alpn:
   - http/1.1
-  name: None_None_trojan_1124
+  name: United States_None_trojan_1124
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -505,7 +505,7 @@ proxies:
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alterId: 0
   cipher: auto
-  name: United States_None_vmess_1129
+  name: None_None_vmess_1129
   network: ws
   port: '80'
   server: mkiuy.1x9.indevs.in
@@ -518,7 +518,7 @@ proxies:
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alterId: 0
   cipher: auto
-  name: None_None_vmess_1130
+  name: United States_None_vmess_1130
   network: ws
   port: '80'
   server: yyynm.2nn.ccwu.cc
@@ -626,7 +626,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: None_None_vmess_1142
+  name: United States_None_vmess_1142
   network: ws
   port: '443'
   server: bghy.1x9.indevs.in
@@ -640,7 +640,7 @@ proxies:
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alterId: 0
   cipher: auto
-  name: None_None_vmess_1143
+  name: United States_None_vmess_1143
   network: ws
   port: '443'
   server: nhj.1jj.ccwu.cc
@@ -667,7 +667,7 @@ proxies:
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alterId: 0
   cipher: auto
-  name: United States_None_vmess_1145
+  name: None_None_vmess_1145
   network: ws
   port: '80'
   server: nnmj.1x5.indevs.in
@@ -694,7 +694,7 @@ proxies:
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alterId: 0
   cipher: auto
-  name: United States_None_vmess_1147
+  name: None_None_vmess_1147
   network: ws
   port: '443'
   server: kklo.1yy.ccwu.cc
@@ -735,7 +735,7 @@ proxies:
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alpn:
   - http/1.1
-  name: United States_None_trojan_1150
+  name: None_None_trojan_1150
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -749,7 +749,7 @@ proxies:
     path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
 - alterId: 0
   cipher: auto
-  name: United States_None_vmess_1151
+  name: None_None_vmess_1151
   network: ws
   port: '443'
   server: bnj.0nn.ccwu.cc
@@ -763,7 +763,7 @@ proxies:
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alterId: 0
   cipher: auto
-  name: None_None_vmess_1152
+  name: United States_None_vmess_1152
   network: ws
   port: '80'
   server: kklo.1xq.indevs.in
@@ -818,7 +818,7 @@ proxies:
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alterId: 0
   cipher: auto
-  name: United States_None_vmess_1156
+  name: None_None_vmess_1156
   network: ws
   port: '80'
   server: nnmkl.2nn.ccwu.cc
@@ -871,7 +871,7 @@ proxies:
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alpn:
   - http/1.1
-  name: None_None_trojan_1160
+  name: United States_None_trojan_1160
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -930,7 +930,7 @@ proxies:
     headers:
       Host: m9o0.1xq.indevs.in
     path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- name: None_None_trojan_1166
+- name: United States_None_trojan_1166
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -942,7 +942,7 @@ proxies:
     headers:
       Host: mjki.1nn.ccwu.cc
     path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- name: United States_None_trojan_1167
+- name: None_None_trojan_1167
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -980,7 +980,7 @@ proxies:
     path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
 - alterId: 0
   cipher: auto
-  name: None_None_vmess_1170
+  name: United States_None_vmess_1170
   network: ws
   port: '80'
   server: m9o0.1xq.indevs.in
@@ -1510,24 +1510,24 @@ proxy-groups:
   - Unknown_vmess_1110
   - Taiwan_Chiayi City_trojan_1111
   - United States_None_vmess_1112
-  - None_None_trojan_1113
-  - None_None_trojan_1114
-  - None_None_trojan_1115
+  - United States_None_trojan_1113
+  - United States_None_trojan_1114
+  - United States_None_trojan_1115
   - United States_None_vmess_1116
-  - None_None_trojan_1117
+  - United States_None_trojan_1117
   - None_None_vmess_1118
-  - None_None_vmess_1119
+  - United States_None_vmess_1119
   - None_None_vmess_1120
-  - None_None_trojan_1121
+  - United States_None_trojan_1121
   - United States_None_vmess_1122
   - United States_None_trojan_1123
-  - None_None_trojan_1124
+  - United States_None_trojan_1124
   - United States_None_trojan_1125
   - United States_None_vmess_1126
   - United States_None_trojan_1127
   - None_None_vmess_1128
-  - United States_None_vmess_1129
-  - None_None_vmess_1130
+  - None_None_vmess_1129
+  - United States_None_vmess_1130
   - Taiwan_Chiayi City_trojan_1131
   - United States_None_trojan_1132
   - Taiwan_Chiayi City_trojan_1133
@@ -1539,35 +1539,35 @@ proxy-groups:
   - Taiwan_Chiayi City_trojan_1139
   - Taiwan_Chiayi City_trojan_1140
   - Taiwan_Chiayi City_trojan_1141
-  - None_None_vmess_1142
-  - None_None_vmess_1143
+  - United States_None_vmess_1142
+  - United States_None_vmess_1143
   - United States_None_vmess_1144
-  - United States_None_vmess_1145
+  - None_None_vmess_1145
   - None_None_vmess_1146
-  - United States_None_vmess_1147
+  - None_None_vmess_1147
   - None_None_vmess_1148
   - United States_None_vmess_1149
-  - United States_None_trojan_1150
-  - United States_None_vmess_1151
-  - None_None_vmess_1152
+  - None_None_trojan_1150
+  - None_None_vmess_1151
+  - United States_None_vmess_1152
   - United States_None_vmess_1153
   - United States_None_trojan_1154
   - None_None_vmess_1155
-  - United States_None_vmess_1156
+  - None_None_vmess_1156
   - United States_None_vmess_1157
   - United States_None_trojan_1158
   - None_None_vmess_1159
-  - None_None_trojan_1160
+  - United States_None_trojan_1160
   - India_None_vmess_1161
   - Taiwan_Chiayi City_trojan_1162
   - China_None_vmess_1163
   - United Kingdom_None_vmess_1164
   - None_None_trojan_1165
-  - None_None_trojan_1166
-  - United States_None_trojan_1167
+  - United States_None_trojan_1166
+  - None_None_trojan_1167
   - United States_None_trojan_1168
   - United States_None_trojan_1169
-  - None_None_vmess_1170
+  - United States_None_vmess_1170
   - Taiwan_Chiayi City_trojan_1171
   - Taiwan_Chiayi City_trojan_1172
   - Taiwan_Chiayi City_trojan_1173
@@ -1662,24 +1662,24 @@ proxy-groups:
   - Unknown_vmess_1110
   - Taiwan_Chiayi City_trojan_1111
   - United States_None_vmess_1112
-  - None_None_trojan_1113
-  - None_None_trojan_1114
-  - None_None_trojan_1115
+  - United States_None_trojan_1113
+  - United States_None_trojan_1114
+  - United States_None_trojan_1115
   - United States_None_vmess_1116
-  - None_None_trojan_1117
+  - United States_None_trojan_1117
   - None_None_vmess_1118
-  - None_None_vmess_1119
+  - United States_None_vmess_1119
   - None_None_vmess_1120
-  - None_None_trojan_1121
+  - United States_None_trojan_1121
   - United States_None_vmess_1122
   - United States_None_trojan_1123
-  - None_None_trojan_1124
+  - United States_None_trojan_1124
   - United States_None_trojan_1125
   - United States_None_vmess_1126
   - United States_None_trojan_1127
   - None_None_vmess_1128
-  - United States_None_vmess_1129
-  - None_None_vmess_1130
+  - None_None_vmess_1129
+  - United States_None_vmess_1130
   - Taiwan_Chiayi City_trojan_1131
   - United States_None_trojan_1132
   - Taiwan_Chiayi City_trojan_1133
@@ -1691,35 +1691,35 @@ proxy-groups:
   - Taiwan_Chiayi City_trojan_1139
   - Taiwan_Chiayi City_trojan_1140
   - Taiwan_Chiayi City_trojan_1141
-  - None_None_vmess_1142
-  - None_None_vmess_1143
+  - United States_None_vmess_1142
+  - United States_None_vmess_1143
   - United States_None_vmess_1144
-  - United States_None_vmess_1145
+  - None_None_vmess_1145
   - None_None_vmess_1146
-  - United States_None_vmess_1147
+  - None_None_vmess_1147
   - None_None_vmess_1148
   - United States_None_vmess_1149
-  - United States_None_trojan_1150
-  - United States_None_vmess_1151
-  - None_None_vmess_1152
+  - None_None_trojan_1150
+  - None_None_vmess_1151
+  - United States_None_vmess_1152
   - United States_None_vmess_1153
   - United States_None_trojan_1154
   - None_None_vmess_1155
-  - United States_None_vmess_1156
+  - None_None_vmess_1156
   - United States_None_vmess_1157
   - United States_None_trojan_1158
   - None_None_vmess_1159
-  - None_None_trojan_1160
+  - United States_None_trojan_1160
   - India_None_vmess_1161
   - Taiwan_Chiayi City_trojan_1162
   - China_None_vmess_1163
   - United Kingdom_None_vmess_1164
   - None_None_trojan_1165
-  - None_None_trojan_1166
-  - United States_None_trojan_1167
+  - United States_None_trojan_1166
+  - None_None_trojan_1167
   - United States_None_trojan_1168
   - United States_None_trojan_1169
-  - None_None_vmess_1170
+  - United States_None_vmess_1170
   - Taiwan_Chiayi City_trojan_1171
   - Taiwan_Chiayi City_trojan_1172
   - Taiwan_Chiayi City_trojan_1173
