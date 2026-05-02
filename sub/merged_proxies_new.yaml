@@ -445,7 +445,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: Indonesia_Jakarta_vmess_1131
+  name: United Kingdom_None_vmess_1131
   port: 30804
   server: v4.hdacd.com
   type: vmess
@@ -676,7 +676,7 @@ proxy-groups:
   - Switzerland_Lupfig_trojan_1128
   - Gibraltar_None_trojan_1129
   - United Kingdom_None_vmess_1130
-  - Indonesia_Jakarta_vmess_1131
+  - United Kingdom_None_vmess_1131
   - United States_None_ss_1132
   - Poland_None_trojan_1133
   - Japan_Tokyo_trojan_1134
@@ -749,7 +749,7 @@ proxy-groups:
   - Switzerland_Lupfig_trojan_1128
   - Gibraltar_None_trojan_1129
   - United Kingdom_None_vmess_1130
-  - Indonesia_Jakarta_vmess_1131
+  - United Kingdom_None_vmess_1131
   - United States_None_ss_1132
   - Poland_None_trojan_1133
   - Japan_Tokyo_trojan_1134
