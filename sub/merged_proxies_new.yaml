@@ -371,7 +371,7 @@ proxies:
   sni: de.01.naiun.bilibili.com
   tls: true
   type: trojan
-- name: United States_None_trojan_1122
+- name: Hong Kong_None_trojan_1122
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 48697
   server: 90081bb25c.node.tro.cac.cab
@@ -636,7 +636,7 @@ proxy-groups:
   - United States_None_trojan_1119
   - United States_None_trojan_1120
   - United States_None_trojan_1121
-  - United States_None_trojan_1122
+  - Hong Kong_None_trojan_1122
   - United States_None_trojan_1123
   - United States_None_trojan_1124
   - South Korea_Jeonju_trojan_1125
@@ -707,7 +707,7 @@ proxy-groups:
   - United States_None_trojan_1119
   - United States_None_trojan_1120
   - United States_None_trojan_1121
-  - United States_None_trojan_1122
+  - Hong Kong_None_trojan_1122
   - United States_None_trojan_1123
   - United States_None_trojan_1124
   - South Korea_Jeonju_trojan_1125
