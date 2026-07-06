@@ -419,40 +419,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - http/1.1
-  name: None_None_trojan_1126
-  network: ws
-  password: MITIVPN
+- cipher: aes-256-cfb
+  name: United States_Columbus_ss_1126
+  password: amazonskr05
   port: '443'
-  server: 104.25.193.8
-  skip-cert-verify: false
-  sni: G-Dee.MaQror.ir
-  type: trojan
+  server: 3.142.135.161
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=De
-- alpn:
-  - http/1.1
-  name: Canada_Ottawa_trojan_1127
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: petrolicious.com
-  skip-cert-verify: false
-  sni: NL-L-ll.MaQror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Nl
-- name: United Arab Emirates_None_trojan_1128
+- name: United Arab Emirates_None_trojan_1127
   network: ws
   password: MITIVPN
   port: 443
@@ -465,7 +439,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: United Kingdom_None_trojan_1129
+- name: United Kingdom_None_trojan_1128
   network: ws
   password: MITIVPN
   port: 443
@@ -478,7 +452,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: The Netherlands_None_trojan_1130
+- name: The Netherlands_None_trojan_1129
   network: ws
   password: MiTiVPN
   port: 443
@@ -491,7 +465,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: United States_None_trojan_1131
+- name: United States_None_trojan_1130
   network: ws
   password: Mitivpn
   port: 443
@@ -554,12 +528,11 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Poland_Skarszewy_trojan_1124
   - Hong Kong_Tuen Mun_vmess_1125
-  - None_None_trojan_1126
-  - Canada_Ottawa_trojan_1127
-  - United Arab Emirates_None_trojan_1128
-  - United Kingdom_None_trojan_1129
-  - The Netherlands_None_trojan_1130
-  - United States_None_trojan_1131
+  - United States_Columbus_ss_1126
+  - United Arab Emirates_None_trojan_1127
+  - United Kingdom_None_trojan_1128
+  - The Netherlands_None_trojan_1129
+  - United States_None_trojan_1130
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -610,12 +583,11 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Poland_Skarszewy_trojan_1124
   - Hong Kong_Tuen Mun_vmess_1125
-  - None_None_trojan_1126
-  - Canada_Ottawa_trojan_1127
-  - United Arab Emirates_None_trojan_1128
-  - United Kingdom_None_trojan_1129
-  - The Netherlands_None_trojan_1130
-  - United States_None_trojan_1131
+  - United States_Columbus_ss_1126
+  - United Arab Emirates_None_trojan_1127
+  - United Kingdom_None_trojan_1128
+  - The Netherlands_None_trojan_1129
+  - United States_None_trojan_1130
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
