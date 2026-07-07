@@ -419,22 +419,18 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - http/1.1
-  name: United States_None_trojan_1126
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 141.193.213.21
-  skip-cert-verify: true
-  sni: fffffl-lls.MaQror.ir
-  type: trojan
+- alterId: 2
+  cipher: auto
+  name: China_None_vmess_1126
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=fl
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - name: United Arab Emirates_None_trojan_1127
   network: ws
   password: MITIVPN
@@ -537,7 +533,7 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - United States_None_trojan_1126
+  - China_None_vmess_1126
   - United Arab Emirates_None_trojan_1127
   - United Kingdom_None_trojan_1128
   - The Netherlands_None_trojan_1129
@@ -592,7 +588,7 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - United States_None_trojan_1126
+  - China_None_vmess_1126
   - United Arab Emirates_None_trojan_1127
   - United Kingdom_None_trojan_1128
   - The Netherlands_None_trojan_1129
