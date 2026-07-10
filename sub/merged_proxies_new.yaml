@@ -414,45 +414,10 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.99 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
     path: /glasspanel/guest000_0_5de14443985f/
 - name: None_None_trojan_1126
-  network: ws
-  password: '666'
-  port: '443'
-  server: yx.cloudflare.182682.xyz
-  skip-cert-verify: false
-  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
-    path: /glasspanel/guest000_0_5de14443985f/
-- cipher: aes-256-cfb
-  name: United States_Columbus_ss_1127
-  password: amazonskr05
-  port: '443'
-  server: 3.16.130.237
-  type: ss
-  udp: true
-- name: None_None_trojan_1128
-  network: ws
-  password: '666'
-  port: '443'
-  server: 104.18.33.225
-  skip-cert-verify: false
-  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: None_None_trojan_1129
   network: ws
   password: '666'
   port: '443'
@@ -464,9 +429,9 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
     path: /glasspanel/guest000_0_5de14443985f/
-- name: None_None_trojan_1130
+- name: None_None_trojan_1127
   network: ws
   password: '666'
   port: '443'
@@ -477,77 +442,29 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-        Chrome/v1.0.0 Safari/538.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /glasspanel/guest000_0_5de14443985f/
-- name: Hong Kong_None_trojan_1131
-  network: tcp
-  password: BxceQaOe
-  port: '34638'
-  server: 18.162.154.153
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: Japan_Tokyo_trojan_1132
-  password: HW85960347
-  port: '443'
-  server: happy-monkfish.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: Japan_Tokyo_trojan_1133
-  password: PI36027154
-  port: '443'
-  server: ethical-raccoon.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: Japan_Tokyo_trojan_1134
-  network: tcp
-  password: PI36027154
-  port: '443'
-  server: ethical-raccoon.rooster465.autos
-  skip-cert-verify: false
-  sni: ethical-raccoon.rooster465.autos
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
-  name: United States_None_ss_1135
+  name: United States_None_ss_1128
   password: amazonskr05
   port: '443'
-  server: 13.192.184.199
+  server: 13.193.101.147
   type: ss
   udp: true
-- name: Japan_Tokyo_trojan_1136
-  network: ws
-  password: '666'
-  port: '443'
-  server: 13.113.194.44
+- alterId: 2
+  cipher: auto
+  name: China_None_vmess_1129
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
   skip-cert-verify: false
-  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: None_None_trojan_1137
-  network: ws
-  password: '666'
-  port: '443'
-  server: 104.18.46.170
-  skip-cert-verify: false
-  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: United Arab Emirates_None_trojan_1138
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- name: United Arab Emirates_None_trojan_1130
   network: ws
   password: MITIVPN
   port: 443
@@ -560,7 +477,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: United Kingdom_None_trojan_1139
+- name: United Kingdom_None_trojan_1131
   network: ws
   password: MITIVPN
   port: 443
@@ -573,7 +490,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: The Netherlands_None_trojan_1140
+- name: The Netherlands_None_trojan_1132
   network: ws
   password: MiTiVPN
   port: 443
@@ -586,7 +503,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: United States_None_trojan_1141
+- name: United States_None_trojan_1133
   network: ws
   password: Mitivpn
   port: 443
@@ -649,21 +566,13 @@ proxy-groups:
   - Hong Kong_Central_vmess_1124
   - None_None_trojan_1125
   - None_None_trojan_1126
-  - United States_Columbus_ss_1127
-  - None_None_trojan_1128
-  - None_None_trojan_1129
-  - None_None_trojan_1130
-  - Hong Kong_None_trojan_1131
-  - Japan_Tokyo_trojan_1132
-  - Japan_Tokyo_trojan_1133
-  - Japan_Tokyo_trojan_1134
-  - United States_None_ss_1135
-  - Japan_Tokyo_trojan_1136
-  - None_None_trojan_1137
-  - United Arab Emirates_None_trojan_1138
-  - United Kingdom_None_trojan_1139
-  - The Netherlands_None_trojan_1140
-  - United States_None_trojan_1141
+  - None_None_trojan_1127
+  - United States_None_ss_1128
+  - China_None_vmess_1129
+  - United Arab Emirates_None_trojan_1130
+  - United Kingdom_None_trojan_1131
+  - The Netherlands_None_trojan_1132
+  - United States_None_trojan_1133
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -714,21 +623,13 @@ proxy-groups:
   - Hong Kong_Central_vmess_1124
   - None_None_trojan_1125
   - None_None_trojan_1126
-  - United States_Columbus_ss_1127
-  - None_None_trojan_1128
-  - None_None_trojan_1129
-  - None_None_trojan_1130
-  - Hong Kong_None_trojan_1131
-  - Japan_Tokyo_trojan_1132
-  - Japan_Tokyo_trojan_1133
-  - Japan_Tokyo_trojan_1134
-  - United States_None_ss_1135
-  - Japan_Tokyo_trojan_1136
-  - None_None_trojan_1137
-  - United Arab Emirates_None_trojan_1138
-  - United Kingdom_None_trojan_1139
-  - The Netherlands_None_trojan_1140
-  - United States_None_trojan_1141
+  - None_None_trojan_1127
+  - United States_None_ss_1128
+  - China_None_vmess_1129
+  - United Arab Emirates_None_trojan_1130
+  - United Kingdom_None_trojan_1131
+  - The Netherlands_None_trojan_1132
+  - United States_None_trojan_1133
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
