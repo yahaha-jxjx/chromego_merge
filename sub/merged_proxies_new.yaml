@@ -419,21 +419,30 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: Japan_Tokyo_ss_1126
-  password: amazonskr05
-  port: 443
-  server: 35.77.98.65
+- name: China_Shanghai_trojan_1126
+  network: tcp
+  password: 1df3ece1218bedba28c6c6ac726a07bb
+  port: 39001
+  server: 114.80.8.128
   skip-cert-verify: true
-  type: ss
+  sni: 114.80.8.128
+  tls: true
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: United States_Columbus_ss_1127
-  password: amazonskr05
+- name: United States_None_trojan_1127
+  network: ws
+  password: '666'
   port: '443'
-  server: 18.191.147.2
-  type: ss
+  server: 166.88.2.154
+  skip-cert-verify: false
+  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
 - name: United Arab Emirates_None_trojan_1128
   network: ws
   password: MITIVPN
@@ -536,8 +545,8 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - Japan_Tokyo_ss_1126
-  - United States_Columbus_ss_1127
+  - China_Shanghai_trojan_1126
+  - United States_None_trojan_1127
   - United Arab Emirates_None_trojan_1128
   - United Kingdom_None_trojan_1129
   - The Netherlands_None_trojan_1130
@@ -592,8 +601,8 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - Japan_Tokyo_ss_1126
-  - United States_Columbus_ss_1127
+  - China_Shanghai_trojan_1126
+  - United States_None_trojan_1127
   - United Arab Emirates_None_trojan_1128
   - United Kingdom_None_trojan_1129
   - The Netherlands_None_trojan_1130
