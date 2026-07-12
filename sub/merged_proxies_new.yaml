@@ -200,104 +200,94 @@ proxies:
     path: /usa=mitivpn
 - alterId: 0
   cipher: auto
-  name: United States_None_vmess_111
+  name: Unknown_vmess_111
   network: tcp
-  port: '443'
-  server: 160.79.104.10
-  servername: www.anthropic.com
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888880
-- alterId: 0
-  cipher: auto
-  name: United States_None_vmess_112
-  network: tcp
-  port: '443'
-  server: 160.79.104.10
-  servername: www.anthropic.com
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888881
-- alterId: 0
-  cipher: auto
-  name: United States_None_vmess_113
-  network: tcp
-  port: '443'
-  server: 160.79.104.10
-  servername: www.anthropic.com
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888882
-- alterId: 0
-  cipher: auto
-  name: United States_None_vmess_114
-  network: tcp
-  port: '443'
-  server: 160.79.104.10
-  servername: www.anthropic.com
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888883
-- alterId: 0
-  cipher: auto
-  name: United States_None_vmess_115
-  network: tcp
-  port: '443'
-  server: 160.79.104.10
-  servername: www.anthropic.com
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888884
-- alterId: 0
-  cipher: auto
-  name: United States_None_vmess_116
-  network: tcp
-  port: '443'
-  server: 160.79.104.10
-  servername: www.anthropic.com
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888885
-- alterId: 0
-  cipher: auto
-  name: United States_None_vmess_117
-  network: tcp
-  port: '443'
-  server: 160.79.104.10
-  servername: www.anthropic.com
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888886
-- alterId: 0
-  cipher: auto
-  name: United States_None_vmess_118
-  network: tcp
-  port: '443'
-  server: 160.79.104.10
-  servername: www.anthropic.com
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888887
-- alterId: 0
-  cipher: auto
-  name: United States_None_vmess_119
-  network: tcp
-  port: '443'
-  server: 160.79.104.10
-  servername: www.anthropic.com
-  tls: true
+  port: '80'
+  server: 127.0.0.53
+  tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: United States_None_vmess_1110
+  name: Unknown_vmess_112
   network: tcp
-  port: '443'
-  server: 160.79.104.10
-  servername: www.anthropic.com
-  tls: true
+  port: '81'
+  server: 127.0.0.53
+  tls: false
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888889
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_113
+  network: tcp
+  port: '82'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_114
+  network: tcp
+  port: '83'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_115
+  network: tcp
+  port: '84'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_116
+  network: tcp
+  port: '85'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_117
+  network: tcp
+  port: '86'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_118
+  network: tcp
+  port: '87'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_119
+  network: tcp
+  port: '88'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_1110
+  network: tcp
+  port: '89'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: United States_None_ss_1111
   password: amazonskr05
@@ -419,31 +409,72 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: China_Shanghai_trojan_1126
-  network: tcp
+- cipher: aes-256-cfb
+  name: France_Paris_ss_1126
+  password: amazonskr05
+  port: 443
+  server: 35.180.122.124
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: United Kingdom_Enfield_ss_1127
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.57
+  type: ss
+  udp: true
+- name: China_Shanghai_trojan_1128
   password: 1df3ece1218bedba28c6c6ac726a07bb
   port: 39001
   server: 114.80.8.128
   skip-cert-verify: true
-  sni: 114.80.8.128
+  sni: www.yrtok.com
   tls: true
   type: trojan
   udp: true
-- name: United States_None_trojan_1127
-  network: ws
-  password: '666'
-  port: '443'
-  server: 166.88.2.154
+- alterId: 2
+  cipher: auto
+  name: China_None_vmess_1129
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
   skip-cert-verify: false
-  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: United Arab Emirates_None_trojan_1128
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  http-opts:
+    headers: {}
+    path:
+    - /tt
+  name: Türkiye_Istanbul_vmess_1130
+  network: http
+  port: '27811'
+  server: 93.180.134.52
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c41fad32-7418-4a23-b01c-7874b4ad1455
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: Germany_None_vmess_1131
+  network: raw
+  port: '80'
+  server: 94.103.167.116
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d1b0c103-a7ff-4bd6-887d-a73d6ebf1f50
+  xudp: true
+- name: United Arab Emirates_None_trojan_1132
   network: ws
   password: MITIVPN
   port: 443
@@ -456,7 +487,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: United Kingdom_None_trojan_1129
+- name: United Kingdom_None_trojan_1133
   network: ws
   password: MITIVPN
   port: 443
@@ -469,7 +500,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: The Netherlands_None_trojan_1130
+- name: The Netherlands_None_trojan_1134
   network: ws
   password: MiTiVPN
   port: 443
@@ -482,7 +513,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: United States_None_trojan_1131
+- name: United States_None_trojan_1135
   network: ws
   password: Mitivpn
   port: 443
@@ -520,16 +551,16 @@ proxy-groups:
   - United Kingdom_None_trojan_1017
   - The Netherlands_None_trojan_1018
   - United States_None_trojan_1019
-  - United States_None_vmess_111
-  - United States_None_vmess_112
-  - United States_None_vmess_113
-  - United States_None_vmess_114
-  - United States_None_vmess_115
-  - United States_None_vmess_116
-  - United States_None_vmess_117
-  - United States_None_vmess_118
-  - United States_None_vmess_119
-  - United States_None_vmess_1110
+  - Unknown_vmess_111
+  - Unknown_vmess_112
+  - Unknown_vmess_113
+  - Unknown_vmess_114
+  - Unknown_vmess_115
+  - Unknown_vmess_116
+  - Unknown_vmess_117
+  - Unknown_vmess_118
+  - Unknown_vmess_119
+  - Unknown_vmess_1110
   - United States_None_ss_1111
   - Hong Kong_Central_vmess_1112
   - United States_None_trojan_1113
@@ -545,12 +576,16 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - China_Shanghai_trojan_1126
-  - United States_None_trojan_1127
-  - United Arab Emirates_None_trojan_1128
-  - United Kingdom_None_trojan_1129
-  - The Netherlands_None_trojan_1130
-  - United States_None_trojan_1131
+  - France_Paris_ss_1126
+  - United Kingdom_Enfield_ss_1127
+  - China_Shanghai_trojan_1128
+  - China_None_vmess_1129
+  - Türkiye_Istanbul_vmess_1130
+  - Germany_None_vmess_1131
+  - United Arab Emirates_None_trojan_1132
+  - United Kingdom_None_trojan_1133
+  - The Netherlands_None_trojan_1134
+  - United States_None_trojan_1135
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -576,16 +611,16 @@ proxy-groups:
   - United Kingdom_None_trojan_1017
   - The Netherlands_None_trojan_1018
   - United States_None_trojan_1019
-  - United States_None_vmess_111
-  - United States_None_vmess_112
-  - United States_None_vmess_113
-  - United States_None_vmess_114
-  - United States_None_vmess_115
-  - United States_None_vmess_116
-  - United States_None_vmess_117
-  - United States_None_vmess_118
-  - United States_None_vmess_119
-  - United States_None_vmess_1110
+  - Unknown_vmess_111
+  - Unknown_vmess_112
+  - Unknown_vmess_113
+  - Unknown_vmess_114
+  - Unknown_vmess_115
+  - Unknown_vmess_116
+  - Unknown_vmess_117
+  - Unknown_vmess_118
+  - Unknown_vmess_119
+  - Unknown_vmess_1110
   - United States_None_ss_1111
   - Hong Kong_Central_vmess_1112
   - United States_None_trojan_1113
@@ -601,12 +636,16 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - China_Shanghai_trojan_1126
-  - United States_None_trojan_1127
-  - United Arab Emirates_None_trojan_1128
-  - United Kingdom_None_trojan_1129
-  - The Netherlands_None_trojan_1130
-  - United States_None_trojan_1131
+  - France_Paris_ss_1126
+  - United Kingdom_Enfield_ss_1127
+  - China_Shanghai_trojan_1128
+  - China_None_vmess_1129
+  - Türkiye_Istanbul_vmess_1130
+  - Germany_None_vmess_1131
+  - United Arab Emirates_None_trojan_1132
+  - United Kingdom_None_trojan_1133
+  - The Netherlands_None_trojan_1134
+  - United States_None_trojan_1135
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
